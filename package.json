@@ -1,0 +1,23 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "rm -rf dist && parcel build index.html --public-url /Pig_Game_JS_Udemy",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitaminsofsalem/Pig_Game_JS_Udemy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitaminsofsalem/Pig_Game_JS_Udemy/issues"
+  },
+  "homepage": "https://github.com/vitaminsofsalem/Pig_Game_JS_Udemy#readme",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
